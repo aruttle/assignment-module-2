@@ -58,21 +58,28 @@
         <div class="mb-3">
             <label for="knot-selector" class="form-label">Choose a knot:</label>
             <select id="knot-selector" class="form-select">
+                <option value="select">Select a knot...</option>
                 <option value="bowline">Bowline</option>
                 <option value="clove-hitch">Clove Hitch</option>
                 <option value="figure-eight">Figure Eight</option>
                 <option value="reef">Reef Knot</option>
                 <option value="cleat-hitch">Cleat Hitch</option>
-                <option value="sheet-bend">Sheet Bend</option>
+                <option value="double-half-hitch">Double Half Hitch</option>
             </select>
         </div>
 
         <div id="knot-instructions" class="text-center">
-            <h3 class="fw-bold">Knot Name</h3>
+            <h3 class="fw-bold"></h3>
             <p class="lead">Instructions will appear here...</p>
-            <img id="knot-image" src="images/" alt="Knot Image" class="img-fluid rounded shadow">
+            <img id="knot-image" src="images/default-image.jpg" alt="Knot Image" class="img-fluid rounded shadow">
         </div>
-    </section>
+
+        <div id="knot-usage" class="text-center">
+            <!-- <h3 class="fw-bold"></h3> -->
+            <p id="knot-usage-text" class=""></p>
+            <iframe id="knot-video" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </section>
 
 
     <!-- Quiz Section -->
